@@ -1,5 +1,5 @@
 <resources>
-  <string name="app_name">Autisreening</string>
+  <string name="app_name">Autiscreening</string>
 
   <string-array name="about_titles">
     <item>What is Autism?</item>
