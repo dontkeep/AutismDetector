@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  tools:context=".ui.fragments.DatasetsFragment">
+
+  <androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+  <TextView
+    android:id="@+id/title"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    android:text="@string/datasets"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    android:layout_margin="16dp"
+    />
+  <com.google.android.material.tabs.TabLayout
+    android:id="@+id/tabLayout"
+    android:layout_width="match_parent"
+    android:layout_marginTop="15dp"
+    android:layout_height="10dp"
+    app:layout_constraintTop_toBottomOf="@+id/title" />
+
+  <TextView
+    android:id="@+id/title_dataset"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/dataset_used_for_this_project_contains_a_survey_results_from_more_than_700_people_who_filled_out_the_survey_there_are_labels_that_shows_whether_or_not_a_person_is_diagnosed_with_autism_this_can_help_machine_learning_models_to_be_made_and_thus_allowing_healthcare_professional_to_prioritize_their_resources_n_n_below_is_the_first_10_rows_of_the_dataset"
+    android:layout_margin="16dp"
+    android:justificationMode="inter_word"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/tabLayout"/>
+
+  <HorizontalScrollView
+    android:id="@+id/scrollable"
+    android:layout_width="match_parent"
+    android:layout_height="0dp"
+    android:layout_marginEnd="16dp"
+    android:layout_marginStart="16dp"
+    android:layout_marginTop="16dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@+id/title_dataset">
+
+    <androidx.recyclerview.widget.RecyclerView
+      android:id="@+id/rvData"
+      android:layout_width="wrap_content"
+      android:layout_height="200dp"
+      android:nestedScrollingEnabled="false"
+      tools:listitem="@layout/table_list_item" />
+
+  </HorizontalScrollView>
+
+  <TextView
+    android:id="@+id/link_dataset"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:linksClickable="true"
+    android:autoLink="web"
+    android:text="This dataset contains 700+ rows with 21 columns. You can access the full Dataset through this :"
+    android:layout_margin="16dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/scrollable"/>
+
+  <TextView
+    android:id="@+id/link"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:linksClickable="true"
+    android:autoLink="web"
+    android:text="@string/link_to_dataset"
+    android:layout_margin="16dp"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toBottomOf="@id/link_dataset"/>
+
+  </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

@@ -1,0 +1,200 @@
+<resources>
+  <string name="app_name">Autisreening</string>
+
+  <string-array name="about_titles">
+    <item>What is Autism?</item>
+    <item>Autism is not an illness</item>
+    <item>Autistic people can live a full life</item>
+    <item>Autism is different for everyone</item>
+    <item>It\'s not clear what causes autism</item>
+    <item>Autistic people can have any level of intelligence</item>
+  </string-array>
+
+  <string-array name="about_contents">
+    <item>Autism, or autism spectrum disorder (ASD), refers to a broad range of conditions characterized by challenges with social skills, repetitive behaviors, speech and nonverbal communication.</item>
+    <item>Being autistic does not mean you have an illness or disease. It means your brain works in a different way from other people. \n \n It\'s something you\'re born with. Signs of autism might be noticed when you\'re very young, or not until you\'re older.</item>
+    <item>Being autistic does not have to stop you having a good life. Like everyone, autistic people have things they\'re good at as well as things they struggle with. Being autistic does not mean you can never make friends, have relationships or get a job</item>
+    <item>Autism is a spectrum. This means everybody with autism is different. Some autistic people need little or no support. Others may need help from a parent or carer every day.</item>
+    <item>Nobody knows what causes autism, or if it has a cause. It can affect people in the same family. So it may sometimes be passed on to a child by their parents.</item>
+    <item>Some autistic people have average or above average intelligence. Some autistic people have a learning disability. This means they may find it hard to look after themselves and need help with daily life.</item>
+  </string-array>
+
+
+  <string-array name="gender">
+    <item>Male</item>
+    <item>Female</item>
+  </string-array>
+
+  <string-array name="ethnicity">
+    <item>Asian</item>
+    <item>Black</item>
+    <item>Hispanic</item>
+    <item>Latino</item>
+    <item>Middle Eastern</item>
+    <!--    <item> 5 </item>-->
+    <item>Pasifika</item>
+    <item>South Asian</item>
+    <item>Turkish</item>
+    <item>White-European</item>
+    <item>others</item>
+  </string-array>
+
+  <string-array name="yesno">
+    <item>No</item>
+    <item>Yes</item>
+  </string-array>
+
+  <string-array name="relationship">
+    <item>Healthcare Professional</item>
+    <item>Others</item>
+    <item>Parent</item>
+    <item>Relative</item>
+    <item>Self</item>
+  </string-array>
+
+  <string name="question1">1. I often notice small sounds when others do not</string>
+  <string name="question2">2. I usually concentrate more on the whole picture, rather than the small details</string>
+  <string name="question3">3. I find it easy to do more than one thing at once</string>
+  <string name="question4">4. If there is an interruption, I can switch back to what I was doing very quickly</string>
+  <string name="question5">5. I find it easy to ‘read between the lines’ when someone is talking to me</string>
+  <string name="question6">6. I know how to tell if someone listening to me is getting bored</string>
+  <string name="question7">7. When I’m reading a story I find it difficult to work out the characters’ intentions</string>
+  <string name="question8">8. I like to collect information about categories of things (e.g. types of car, types of bird, types of train, types of plant etc)</string>
+  <string name="question9">9. I find it easy to work out what someone is thinking or feeling just by looking at their face</string>
+  <string name="question10">10. I find it difficult to work out people’s intentions</string>
+
+  <string-array name="feature_name">
+    <item>A1_Score</item>
+    <item>A2_Score</item>
+    <item>A3_Score</item>
+    <item>A4_Score</item>
+    <item>A5_Score</item>
+    <item>A6_Score</item>
+    <item>A7_Score</item>
+    <item>A8_Score</item>
+    <item>A9_Score</item>
+    <item>A10_Score</item>
+    <item>Age</item>
+    <item>Gender</item>
+    <item>Ethnicity</item>
+    <item>Juandice</item>
+    <item>Autism</item>
+    <item>Contry_of_Res</item>
+    <item>Used_app</item>
+    <item>Result</item>
+    <item>Age_Desc</item>
+    <item>Relation</item>
+    <item>Class or ASD</item>
+  </string-array>
+
+  <string-array name="feature_description">
+    <item>Score of Answer No 1</item>
+    <item>Score of Answer No 2</item>
+    <item>Score of Answer No 3</item>
+    <item>Score of Answer No 4</item>
+    <item>Score of Answer No 5</item>
+    <item>Score of Answer No 6</item>
+    <item>Score of Answer No 7</item>
+    <item>Score of Answer No 8</item>
+    <item>Score of Answer No 9</item>
+    <item>Score of Answer No 10</item>
+    <item>The age of the patients</item>
+    <item>Gender of the patients</item>
+    <item>Ethnicity of the patients</item>
+    <item>It shows whether or not the patients was born with jaundice</item>
+    <item>Whether or not anyone in the immediate family has been diagnosed with autism</item>
+    <item>Country origin of the patients</item>
+    <item>For whether or not the patients has ever used a screening app</item>
+    <item>Total score from the 10 questions</item>
+    <item>Age description as categorial</item>
+    <item>Relation of person who completed the test</item>
+    <item>The patients classsification</item>
+  </string-array>
+
+  <string-array name="features_category">
+    <item>[Int: 1, 0]</item>
+    <item>[Int: 1, 0]</item>
+    <item>[Int: 1, 0]</item>
+    <item>[Int: 1, 0]</item>
+    <item>[Int: 1, 0]</item>
+    <item>[Int: 1, 0]</item>
+    <item>[Int: 1, 0]</item>
+    <item>[Int: 1, 0]</item>
+    <item>[Int: 1, 0]</item>
+    <item>[Int: 1, 0]</item>
+    <item>[Int: 17, 383]</item>
+    <item>[Cat: m, f]</item>
+    <item>[Cat: Asian, 9 others]</item>
+    <item>[Cat: No, Yes]</item>
+    <item>[Cat: No, Yes]</item>
+    <item>[String: All Countries]</item>
+    <item>[Cat: No, Yes]</item>
+    <item>[Double: 0.0, 10.0]</item>
+    <item>[Cat: 18 and more]</item>
+    <item>[Cat: Self, 4 others]</item>
+    <item>[Cat: NO, YES]</item>
+  </string-array>
+
+  <!-- TODO: Remove or change this placeholder text -->
+  <string name="hello_blank_fragment">Hello blank fragment</string>
+  <string name="gender">Gender</string>
+  <string name="ethnicity">Ethnicity</string>
+  <string name="juandice">Juandice</string>
+  <string name="autism">Autism</string>
+  <string name="used_app_before">used app before?</string>
+  <string name="who_is_answering_this_question">Who is answering this question?</string>
+  <string name="predict">Predict</string>
+  <string name="age">Age</string>
+  <string name="what_is_your_age">What is your age?</string>
+  <string name="yes_no">Yes/No</string>
+  <string name="now_that_you_know_what_autism_is_are_you_ready_to_take_a_test">Now that you know what Autism is, are you ready to take a test?</string>
+  <string name="take_a_test">Take a test</string>
+  <string name="please_do_your_test_to_see_your_result">Please do your test to see your result</string>
+  <string name="autism_is_not_a_disability_n_it_s_a_different_ability">Autism is not a disability. \n It\'s a Different Ability.</string>
+  <string name="link_to_dataset">Kaggle Dataset : kaggle.com/datasets/andrewmvd/autism-screening-on-adults</string>
+  <string name="github">My Github : github.com/dontkeep</string>
+  <string name="artstation">My Artstation : artstation.com/loyaltyyy</string>
+  <string name="what_is_your_gender">What is your gender?</string>
+  <string name="what_is_your_ethnicity">What is your ethnicity?</string>
+  <string name="are_you_born_with_jaundice">Are you born with jaundice?</string>
+  <string name="is_there_anyone_in_your_family_that_s_diagnosed_with_autsim">Is there anyone in your family that\'s diagnosed with autsim?</string>
+  <string name="have_you_ever_use_a_screening_app_before">Have you ever use a screening app before?</string>
+  <string name="relation_of_person_who_completed_the_test">Relation of person who completed the test?</string>
+  <string name="male_female">Male/Female</string>
+  <string name="select_your_answer">Select Your Answer</string>
+  <string name="answers">Answers</string>
+  <string name="next_page">Next Page</string>
+  <string name="autism_or_autism_spectrum_disorder_asd_refers_to_a_broad_range_of_conditions_characterized_by_challenges_with_social_skills_repetitive_behaviors_speech_and_nonverbal_communication">Autism, or autism spectrum disorder (ASD), refers to a broad range of conditions characterized by challenges with social skills, repetitive behaviors, speech and nonverbal communication.</string>
+  <string name="what_is_autism">What is Autism??</string>
+  <string name="a_screening_tool_for_autism_in_n_young_adults_and_adults">A Screening Tool for Autism in \n Young Adults and Adults.</string>
+  <string name="enter_screening_app">Enter Screening App</string>
+  <string name="colons">:</string>
+  <string name="type">[Type]</string>
+  <string name="feature_name">Feature Name</string>
+  <string name="details">Details</string>
+  <string name="datasets">Datasets</string>
+  <string name="dataset_used_for_this_project_contains_a_survey_results_from_more_than_700_people_who_filled_out_the_survey_there_are_labels_that_shows_whether_or_not_a_person_is_diagnosed_with_autism_this_can_help_machine_learning_models_to_be_made_and_thus_allowing_healthcare_professional_to_prioritize_their_resources_n_n_below_is_the_first_10_rows_of_the_dataset">Dataset used for this project contains a survey results from more than 700 people who filled out the survey. There are labels that shows whether or not a person is diagnosed with autism. This can help machine learning models to be made and thus allowing healthcare professional to prioritize their resources. \n \n Below is the first 10 rows of the dataset.</string>
+  <string name="this_dataset_contains_700_rows_with_21_columns_you_can_access_the_full_dataset_through_this">This dataset contains 700+ rows with 21 columns. You can access the full Dataset through this link:</string>
+  <string name="features">Features</string>
+  <string name="the_image_above_shows_the_visualization_of_the_neural_network_with_weight_on_each_of_the_connections">The image above shows the visualization of the neural network with weight on each of the connections.</string>
+  <string name="it_s_a_sequential_model_with_an_activation_function_of_relu_for_the_hidden_layers_and_sigmoid_for_the_output_layer_though_relu_is_best_used_for_cnn_convolutional_neural_network_it_s_also_good_for_ann_artificial_neural_network">It\'s a Sequential model with an activation function of ReLU for the hidden layers and Sigmoid for the output layer. Though ReLU is best used for CNN(Convolutional Neural Network), it\'s also good for ANN(Artificial Neural Network).</string>
+  <string name="the_architecture_of_the_model_contains_an_input_layer_with_the_size_of_0_18_with_3_hidden_layer_with_the_size_of_0_10_0_8_0_8_respectively_lastly_it_has_an_output_layer_with_the_size_of_0_1"><![CDATA[The architecture of the model contains an input layer with the size of 0,18. With 3 hidden layer with the size of 0, 10 -> 0, 8 -> 0,8 respectively. Lastly it has an output layer with the size of 0, 1.]]></string>
+  <string name="model_achitecture_and_visualization">Model Achitecture and Visualization</string>
+  <string name="muchammad_romadona">Muchammad Romadona</string>
+  <string name="romadonadoni03_gmail_com">romadonadoni03@gmail.com</string>
+  <string name="a1_score">a1_score</string>
+  <string name="a2_score">a2_score</string>
+  <string name="a3_score">a3_score</string>
+  <string name="a4_score">a4_score</string>
+  <string name="a5_score">a5_score</string>
+  <string name="a6_score">a6_score</string>
+  <string name="a7_score">a7_score</string>
+  <string name="a8_score">a8_score</string>
+  <string name="a9_score">a9_score</string>
+  <string name="a10_score">a10_score</string>
+  <string name="country_of_res">country_of_res</string>
+  <string name="result">result</string>
+  <string name="age_desc">age_desc</string>
+  <string name="relation">relation</string>
+  <string name="class_asd">Class/ASD</string>
+</resources>

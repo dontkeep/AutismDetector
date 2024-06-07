@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:id="@+id/main"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  tools:context=".ui.questions.SecondBatchActivity">
+
+  <LinearLayout
+    android:id="@+id/txt1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/what_is_your_age"
+      android:layout_marginTop="16dp"
+      android:layout_marginEnd="16dp"
+      android:layout_marginStart="16dp"
+      />
+
+    <com.google.android.material.textfield.TextInputLayout
+      android:id="@+id/question11"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="16dp"
+      android:textColorHint="#546E7A"
+      android:hint="@string/age"
+      >
+
+      <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:textColor="#546E7A"
+        android:layout_height="wrap_content"
+        android:digits="1234567890"
+        tools:ignore="VisualLintTextFieldSize" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/what_is_your_gender"
+      android:layout_marginEnd="16dp"
+      android:layout_marginStart="16dp"
+      />
+
+    <com.google.android.material.textfield.TextInputLayout
+      android:id="@+id/question12"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="16dp"
+      android:labelFor="@id/auto_complete12"
+      android:contentDescription="@string/select_your_answer"
+      style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+
+      <AutoCompleteTextView
+        android:id="@+id/auto_complete12"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/male_female"
+        android:inputType="none"
+        tools:ignore="LabelFor,SpeakableTextPresentCheck,VisualLintTextFieldSize" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/what_is_your_ethnicity"
+      android:layout_marginEnd="16dp"
+      android:layout_marginStart="16dp"
+      />
+
+    <com.google.android.material.textfield.TextInputLayout
+      android:id="@+id/question13"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="16dp"
+      style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+
+      <AutoCompleteTextView
+        android:id="@+id/auto_complete13"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/ethnicity"
+        android:inputType="none"
+        tools:ignore="SpeakableTextPresentCheck,VisualLintTextFieldSize" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/are_you_born_with_jaundice"
+      android:layout_marginEnd="16dp"
+      android:layout_marginStart="16dp"
+      />
+
+    <com.google.android.material.textfield.TextInputLayout
+      android:id="@+id/question14"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="16dp"
+      android:labelFor="@id/auto_complete14"
+      style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+
+      <AutoCompleteTextView
+        android:id="@+id/auto_complete14"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/are_you_born_with_jaundice"
+        android:inputType="none"
+        tools:ignore="SpeakableTextPresentCheck,VisualLintTextFieldSize" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/is_there_anyone_in_your_family_that_s_diagnosed_with_autsim"
+      android:layout_marginEnd="16dp"
+      android:layout_marginStart="16dp"
+      />
+
+    <com.google.android.material.textfield.TextInputLayout
+      android:id="@+id/question15"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="16dp"
+      style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+
+      <AutoCompleteTextView
+        android:id="@+id/auto_complete15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/yes_no"
+        android:inputType="none"
+        tools:ignore="SpeakableTextPresentCheck,VisualLintTextFieldSize" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/have_you_ever_use_a_screening_app_before"
+      android:layout_marginEnd="16dp"
+      android:layout_marginStart="16dp"
+      />
+
+    <com.google.android.material.textfield.TextInputLayout
+      android:id="@+id/question16"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:layout_margin="16dp"
+      android:labelFor="@id/auto_complete16"
+      style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+
+      <AutoCompleteTextView
+        android:id="@+id/auto_complete16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/yes_no"
+        android:inputType="none"
+        android:labelFor="@id/question16"
+        tools:ignore="SpeakableTextPresentCheck,VisualLintTextFieldSize" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <TextView
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/relation_of_person_who_completed_the_test"
+      android:layout_marginEnd="16dp"
+      android:layout_marginStart="16dp" />
+
+    <com.google.android.material.textfield.TextInputLayout
+      android:id="@+id/question17"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:labelFor="@id/auto_complete17"
+      android:layout_margin="16dp"
+      style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox.ExposedDropdownMenu">
+
+      <AutoCompleteTextView
+        android:id="@+id/auto_complete17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:labelFor="@id/question17"
+        android:hint="@string/who_is_answering_this_question"
+        android:inputType="none"
+        tools:ignore="SpeakableTextPresentCheck,VisualLintTextFieldSize" />
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+      android:id="@+id/btn_predict"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:text="@string/predict"
+      style="@style/Widget.Material3.Button.TonalButton"
+      android:layout_margin="16dp"
+      tools:ignore="VisualLintButtonSize" />
+  </LinearLayout>
+</ScrollView>
