@@ -15,11 +15,12 @@
     <activity
       android:name=".ui.questions.FirstBatchActivity"
       android:exported="false"
-      android:noHistory="true"
       />
     <activity
       android:name=".ui.questions.SecondBatchActivity"
-      android:exported="false" />
+      android:exported="false"
+      android:noHistory="true"
+      />
     <activity
       android:name=".ui.MainActivity"
       android:exported="false" />
